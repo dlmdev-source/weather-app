@@ -1,0 +1,89 @@
+
+body{
+    background-color: #eaf4ff;
+    margin: 0px;
+}
+
+[id] {
+  scroll-margin-top: 100px;
+}
+
+/*NAVIGACIJA*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav a{
+    color: #000024;
+    font-size: large;
+    text-decoration: none;
+    background-color: #91beee;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: #91beee solid 2px;
+    transition: background-color 2s;
+}
+
+nav a:hover{
+    background-color: #eaf4ff;
+}
+
+/*HEADER*/
+
+header{
+    background-image: url(assets/images/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    height: 350px;
+}
+
+header h1{
+    color: #000024;
+    font-size: 70px;
+    display: block;
+    margin: auto;
+}
+
+/*CONTAINER 1*/
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container1 .div1{
+    background-color: #91beee;
+    width: 40%;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container1 .div2{
+    background-color: #91beee;
+    width: 30%;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/*LINE*/
+hr{
+    width: 60%;
+    background-color: #91beee;
+    height: 5px;
+    border-radius: 5px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #91beee;
+    color: #000024;
+    text-align: center;
+    padding: 15px;
+}
